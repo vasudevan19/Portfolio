@@ -1,0 +1,138 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .about-content {
+    max-width: 600px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-image {
+    margin-bottom: 20px;
+  }
+  
+  .about-image img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    object-fit: cover;
+    object-position: center top;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+  }
+  
+  .about-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #555555;
+  }
+
+  .resume-button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(238, 17, 128);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    text-align: center;
+    font-weight : bold;
+    cursor : pointer;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  .type-animate{
+    border-right: 2px solid;
+    width: 26ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(26),blink 0.5s step-end infinite alternate;
+    margin-bottom: 20px;
+  }
+  /* .type-animate h2 {
+    width: 250px;
+    
+  } */
+
+  .resume-button:hover {
+    transform: scale(1.1) translateY(5px);
+  }
+
+  @keyframes typing {
+    from{
+      width: 0;
+    }
+  }
+  @keyframes blink {
+    50%{
+      border-color: transparent;
+    }
+  }
+
+
+  @media screen and (max-width:768px){
+    .about-image img {
+    width: 180px;
+    height: 180px;
+    }
+    h2 {
+      font-size: 22px;
+      color: #333;
+    }
+    
+    p {
+      font-size: 15px;
+      line-height: 1.3;
+    }
+    .type-animate{
+      width: 24ch;
+      animation: typing 3s steps(24),blink 0.5s step-end infinite alternate;
+    }
+  
+  
+  }
+  @media screen and (max-width:500px){
+    .about-image img {
+    width: 150px;
+    height: 150px;
+    }
+    h2 {
+      font-size: 20px;
+      color: hsl(0, 0%, 20%);
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 500;
+    }
+    .type-animate{
+      width: 22ch;
+      animation: typing 3s steps(22),blink 0.5s step-end infinite alternate;
+    }
+  }
+
+  
