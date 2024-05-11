@@ -29,6 +29,7 @@ const Contact = () => {
 
   return (
     <>
+      <div className="outer-div">
       <div className="contact-container">
         <h1>Contact Me</h1>
         <p>
@@ -51,7 +52,7 @@ const Contact = () => {
               />
               <p
                 onClick={handleEmailClick}
-                style={{ marginTop: "5px", fontSize:'15px', cursor: "pointer" }}
+                style={{ marginTop: "5px", cursor: "pointer" }}
               >
                 vasudevan191999@gmail.com
                 <button className="copy-btn" onClick={handleEmailCopy}>
@@ -77,7 +78,7 @@ const Contact = () => {
               />
               <p
                 onClick={handlePhoneClick}
-                style={{ marginTop: "5px",fontSize:'15px', cursor: "pointer" }}
+                style={{ marginTop: "5px", cursor: "pointer" }}
               >
                 +91 9047752410{" "}
                 <button className="copy-btn" onClick={handlePhoneCopy}>
@@ -120,6 +121,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 };
