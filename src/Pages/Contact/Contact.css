@@ -10,7 +10,7 @@
     max-width: 800px;
     height: 80vh;
     /* padding: 10px; */
-    padding-top: 3rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,7 +47,8 @@
     background-color: #ffffff;
     padding: 10px;
     border-radius: 10px;
-    width: 250px;
+    width: 270px;
+    height: 150px;
     box-shadow: 0 0 5px rgba(211, 6, 91, 0.854);
   }
   
@@ -118,6 +119,10 @@
     margin-top: 10px;
     overflow: hidden;
     border-radius: 30px;
+  }
+
+  .social-links{
+    padding-bottom: 30px;
   }
   
   .social-links ul {

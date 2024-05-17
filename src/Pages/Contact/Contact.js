@@ -52,7 +52,7 @@ const Contact = () => {
               />
               <p
                 onClick={handleEmailClick}
-                style={{ marginTop: "5px", cursor: "pointer" }}
+                style={{ marginTop: "5px", cursor: "pointer", marginBottom:"5px" }}
               >
                 vasudevan191999@gmail.com
                 <button className="copy-btn" onClick={handleEmailCopy}>
