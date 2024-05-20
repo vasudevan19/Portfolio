@@ -16,7 +16,7 @@ const Home = () => {
           <p>
           Passionate Frontend Developer with expertise in HTML, CSS, JavaScript, and React. Committed to creating engaging and user-friendly web experiences. Proficient in building responsive and dynamic websites while adhering to modern web standards. Strong problem-solving skills and a keen eye for design. Dedicated to continuous learning and staying updated with the latest technologies.
           </p>
-          <a href="https://drive.google.com/file/d/1ASvrO6EezAGDnn39e7Yvw8R6Mdfyhzlb/view?usp=sharing" target='blank' className="resume-button">
+          <a href="https://drive.google.com/file/d/158KP5rGrgWEmZLx9mHO_7zopvCB-q9V6/view?usp=drive_link" target='blank' className="resume-button">
             Download Resume
           </a>
         </div>
